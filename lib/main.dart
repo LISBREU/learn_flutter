@@ -1,10 +1,12 @@
 import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
 void main() {
   runApp(const MyApp());
 }
+
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -26,6 +28,7 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
 
 class MyAppState extends ChangeNotifier {
   var current = WordPair.random();
@@ -81,7 +84,9 @@ switch (selectedIndex) {
                     ),
                     NavigationRailDestination(
                       icon: Icon(Icons.favorite_sharp),
-                      label: Text('Favorites'),
+                      label: Text(
+                        'Favorites', 
+                      ),
                     ),
                   ],
                   selectedIndex: selectedIndex,
@@ -134,14 +139,20 @@ class GeneratorPage extends StatelessWidget {
                   appState.toggleFavorite();
                 },
                 icon: Icon(icon),
-                label: const Text('Like'),
+                label: Text('Like',
+                style: GoogleFonts.roboto(
+                  textStyle: const TextStyle(fontSize: 20),
+                ),),
               ),
               const SizedBox(width: 10),
               ElevatedButton(
                 onPressed: () {
                   appState.getNext();
                 },
-                child: const Text('Next'),
+                child: Text('Next',
+                style: GoogleFonts.roboto(
+                  textStyle: const TextStyle(fontSize: 20),
+                ),),
               ),
             ],
           ),
@@ -214,7 +225,10 @@ class FavoritesPage extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.all(10),
           child: Text('Now you have '
-              '${appState.favorites.length} favorites:'),
+              '${appState.favorites.length} favorites:',
+                style: GoogleFonts.roboto(
+                textStyle: const TextStyle(fontSize: 20),
+          ), ),
         ),
         for (var pair in appState.favorites)
           ListTile(
@@ -225,3 +239,5 @@ class FavoritesPage extends StatelessWidget {
     );
   }
 }
+
+
