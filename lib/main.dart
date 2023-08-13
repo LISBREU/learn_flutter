@@ -226,15 +226,20 @@ class FavoritesPage extends StatelessWidget {
           padding: const EdgeInsets.all(10),
           child: Text('Now you have '
               '${appState.favorites.length} favorites:',
-                style: GoogleFonts.roboto(
-                textStyle: const TextStyle(fontSize: 20),
-          ), ),
+                // style: GoogleFonts.roboto(
+                // textStyle: const TextStyle(fontSize: 20),
+                 style: const TextStyle(
+            fontFamily: 'Manrope', // Используйте название семейства шрифта
+            fontSize: 18.0,
+          ),
+          ),
         ),
         for (var pair in appState.favorites)
           ListTile(
             leading: const Icon(Icons.favorite_outlined),
             title: Text(pair.asLowerCase),
           ),
+      Image.asset('assets/images/svg/3.jpg'),
       ],
     );
   }
