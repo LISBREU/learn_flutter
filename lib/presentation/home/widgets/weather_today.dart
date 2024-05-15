@@ -9,6 +9,7 @@ class WeatherToday extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
         Row(
+          mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.center, // Обновлено
           children: [
             // Оберните изображение в столбец
@@ -17,8 +18,8 @@ class WeatherToday extends StatelessWidget {
               children: [
                 Image.asset(
                   'assets/images/png/sun.png', // URL или локальный путь к изображению
-                  width: 200,
-                  height: 300,
+                  width: 150,
+                  height: 400,
                 ),
                 const SizedBox(
                     height: 20), // Отступ между изображением и текстом
@@ -29,7 +30,7 @@ class WeatherToday extends StatelessWidget {
             // ignore: prefer_const_constructors
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
-              mainAxisAlignment: MainAxisAlignment.center,
+              // mainAxisAlignment: MainAxisAlignment.center,
               children: const [
                 Row(
                   children: [
@@ -43,8 +44,8 @@ class WeatherToday extends StatelessWidget {
                     Text(
                       'Cupertino',
                       style: TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.w400,
+                          fontSize: 16,
+                          fontWeight: FontWeight.w300,
                           color: Colors.grey),
                     ),
                   ],
@@ -52,14 +53,17 @@ class WeatherToday extends StatelessWidget {
                 SizedBox(height: 5),
                 Text(
                   '12°',
-                  style: TextStyle(fontSize: 80, color: Colors.black),
+                  style: TextStyle(
+                      fontSize: 100,
+                      fontWeight: FontWeight.w400,
+                      color: Colors.black),
                 ),
                 SizedBox(height: 5),
                 Text(
                   'Sunny and bright',
                   style: TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.w800,
+                      fontSize: 20,
+                      fontWeight: FontWeight.w400,
                       color: Colors.black),
                 ),
               ],

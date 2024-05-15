@@ -25,20 +25,19 @@ class WeatherTheme {
     scaffoldBackgroundColor: Colors.white,
     shadowColor: const Color.fromRGBO(255, 191, 0, 0.2),
     textTheme: const TextTheme(
-      headline1: TextStyle(
-        fontFamily: defaultFontFamily,
-        color: Colors.black,
-        fontSize: 120,
-        fontWeight: FontWeight.w400,
-        height: 1.1,
-      ),
-      bodyText2: TextStyle(
-        fontFamily: 'Manrope',
-        color: Colors.red,
-        fontSize: 120,
-        fontWeight: FontWeight.w400,
-        height: 1.1,
-      )
-    ),
+        headline1: TextStyle(
+          fontFamily: defaultFontFamily,
+          color: Colors.black,
+          fontSize: 120,
+          fontWeight: FontWeight.w400,
+          height: 1.1,
+        ),
+        bodyText2: TextStyle(
+          fontFamily: 'Manrope',
+          color: Colors.black,
+          fontSize: 120,
+          fontWeight: FontWeight.w400,
+          height: 1.1,
+        )),
   );
 }

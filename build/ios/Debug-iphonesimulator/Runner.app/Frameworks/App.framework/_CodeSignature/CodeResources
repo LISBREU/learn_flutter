@@ -10,11 +10,11 @@
 		</data>
 		<key>flutter_assets/AssetManifest.bin</key>
 		<data>
-		GYFaM7ydHPsIwE79xISuzPd1IXc=
+		tCWLhzbtNoAE+WPcYAGSP1oeBT0=
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		0NYYeYvdV4S+bxNP5mO8iYvM73A=
+		jAafFs/g/i2BUB6t3vyiwHeVPDM=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>flutter_assets/NOTICES.Z</key>
 		<data>
-		pq+klJkDVni7Yw2go2LVoI078aM=
+		5YPC6Q2gjY+qxV13vBdF5SXprNQ=
 		</data>
 		<key>flutter_assets/assets/fonts/Manrope/Manrope-Bold.ttf</key>
 		<data>
@@ -52,13 +52,25 @@
 		<data>
 		5CPhEvSDKRawUwiTTBCqhP0Uxgc=
 		</data>
+		<key>flutter_assets/assets/images/png/cloudy.png</key>
+		<data>
+		1GgHxM3DnjHj0xDpa8G61h5zztI=
+		</data>
 		<key>flutter_assets/assets/images/png/moon.png</key>
 		<data>
 		BpgAbdjqONqE46n6F3+wP+9830U=
 		</data>
+		<key>flutter_assets/assets/images/png/rain.png</key>
+		<data>
+		CEBdfgs8uLUOIYRqbreL6V1GGzA=
+		</data>
+		<key>flutter_assets/assets/images/png/snow.png</key>
+		<data>
+		8XIVdR1/+I9Nn2VeZqT0LmIysJo=
+		</data>
 		<key>flutter_assets/assets/images/png/sun.png</key>
 		<data>
-		AV475uGn5cYdpzgn6nUuLMiMotY=
+		rVyy/6VTxWd7Ml0CJa5/Z3gaWdg=
 		</data>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<data>
@@ -70,7 +82,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		gKoravxxbVfVfHnUA+ugisHd/1Y=
+		qngkDa9sO6Q/wlyJVxshCo4VoxQ=
 		</data>
 		<key>flutter_assets/shaders/ink_sparkle.frag</key>
 		<data>
@@ -87,14 +99,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			R03uRj1vAc/rNLrw9EYstl5krD4xT9yM/jt4Bx9eDe0=
+			COIODStY0r/dfKAjlvN3K5K6dgO26mOpGS5ol1SDIsQ=
 			</data>
 		</dict>
 		<key>flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C99NY3cIkLJOOHz6Tg3gS28HXw4SmuFYzQN5ljMyAec=
+			MMgBdSpImwjzRVjGlnkeYet+4j/Ti0SXCskMdOWkVyY=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -108,7 +120,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q10MdPaN4WRX/fdZR+2j2Y2Y2InaD5xwiysIckcsTt8=
+			eluvfgdpkib4K7Of6KBtXx1FDGuYGMjTAXpWYkWthA4=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/fonts/Manrope/Manrope-Bold.ttf</key>
@@ -160,6 +172,13 @@
 			nLa98Awsa2TUvHcIeq34ggeld/MtrkEHReTVVYI1XTw=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/images/png/cloudy.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rRDkXZjqUokVl3dDd1Sh0I/KsIbyWF4U0uSG7s0SnXA=
+			</data>
+		</dict>
 		<key>flutter_assets/assets/images/png/moon.png</key>
 		<dict>
 			<key>hash2</key>
@@ -167,11 +186,25 @@
 			eKVyIvZiGzd/VXj5BQIT6v0zjcCT5toAKZ5cmh7o7m4=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/images/png/rain.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vt5Gc6ZmE//SQmspOqLdbtkshnyf3Vov2JECHxGGteQ=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/png/snow.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			iBJQVVWOB1YwKBYnIsuIpu1UpkPGjdIeJC6jJEjg7dw=
+			</data>
+		</dict>
 		<key>flutter_assets/assets/images/png/sun.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iFuFL6jrdKe0C/wngtJI58NkEGyG9b1R0mzSZgKura0=
+			BM3GIRzGTyuGkvJCgvxHQB5d02Zd3sAQnNty+nJB7Jk=
 			</data>
 		</dict>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
@@ -192,7 +225,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ncPvi4OVbjWfWyYCK8zqcOTYKoks2iHcHii1B5ZimdU=
+			hT/Ysz0vkWW0b3IUpmDQovY/+gOViiXAJ8PSIoim40c=
 			</data>
 		</dict>
 		<key>flutter_assets/shaders/ink_sparkle.frag</key>
